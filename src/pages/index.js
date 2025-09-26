@@ -3,6 +3,7 @@ import ComponenteComProp from "@/components/ComponenteComProp";
 import ComponenteComVariasProps from "@/components/ComponenteComVariasProps";
 import ComponenteComCondicional from "@/components/ComponenteComCondicional";
 import ComponenteComMap from "@/components/ComponenteComMap";
+import ComponenteComEventos from "@/components/ComponenteComEventos";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <ComponenteComCondicional />
 
       <ComponenteComMap />
+
+      <ComponenteComEventos />
     </div>
   )
 }
