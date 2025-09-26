@@ -6,6 +6,7 @@ import ComponenteComMap from "@/components/ComponenteComMap";
 import ComponenteComEventos from "@/components/ComponenteComEventos";
 import ComponenteComState from "@/components/ComponentecomState";
 import ComponenteComUseEffect from "@/components/ComponenteComUseEffct";
+import ComponenteComFormik from "@/components/ComponetneComFormularioFormik";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       <ComponenteComState />
 
       <ComponenteComUseEffect />
+
+      <ComponenteComFormik />
     </div>
   )
 }
